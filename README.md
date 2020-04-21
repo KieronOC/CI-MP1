@@ -54,9 +54,9 @@ This is a code block
 
 > ### 6.1 Content
 
-> Code | Source
-> ------- | -------------------------------
-> 1. CSS to do this in this line adsasd hkahd hkadh  kahd a kjhad  | www.w3schools.com
+> Code | Source| Comment
+> :--- | :---- | :---
+> 1. CSS to do this in this line adsasd hkahd hkadh  kahd a kjhad  | www.w3schools.com|Hi there
 > 2. Code for this and that| from this source B
 > 3. Code for this and that|from source A
 
