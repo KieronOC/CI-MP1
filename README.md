@@ -52,19 +52,37 @@ This is a code block
 ## 6. Credits
 
 
-> ### 6.1 Content
+> ### 6.1 Primary Code References
 
-> Code | Source| Comment
-> :--- | :---- | :---
-> 1. CSS to do this in this line adsasd hkahd hkadh  kahd a kjhad  | www.w3schools.com|Hi there
-> 2. Code for this and that| from this source B
-> 3. Code for this and that|from source A
+| No. 	| Code Area 	| Code Source 	| Comment 	|
+|-----	|-----------	|-------------	|---------	|
+| 1.  	|SS to do this in this line adsasd hkahd hkadh  kahd a kjhad           	| www.w3schools.com	            	|I used this to         	|
+| 2.  	|Code for this and that           	|www.thisandthat.com             	|         	|
+| 3.  	|Code for this and that           	|	www.thisandthat.com	             	|         	|
+| 4.  	|Code for this and that           	|             	|         	|
+
+> ### 6.2 Generic Code References
+
+| No. 	| Code Area 	| Code Source 	| Comment 	|
+|-----	|-----------	|-------------	|---------	|
+| 1.  	|Bootstrap 4          	| www.bootstrap.com	            	|I used this to         	|
+| 2.  	|Fontawesome          	|www.fontaweseome.com         	|         	|
+| 3.  	|Code for this and that           	|	www.thisandthat.com	             	|         	|
+| 4.  	|Code for this and that           	|             	|         	|
+
+
+> ### 6.3 Media
+
+| No. 	| Code Area 	| Code Source 	| Comment 	|
+|-----	|-----------	|-------------	|---------	|
+| 1.  	|Picture         	| www.googlepics.com            	|I used this to         	|
+| 2.  	|Fontawesome          	|www.fontaweseome.com         	|         	|
+| 3.  	|Code for this and that           	|	www.thisandthat.com	             	|         	|
+| 4.  	|Code for this and that           	|             	|         	|
 
 
 
-> ### 6.2 Media
 
-
-> ### 6.3 Acknowledgements
+> ### 6.4 Acknowledgements
 
 
