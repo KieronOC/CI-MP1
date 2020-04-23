@@ -56,7 +56,7 @@ This is a code block
 
 | No. 	| Code Area 	| Code Source 	| Comment 	|
 |-----	|-----------	|-------------	|---------	|
-| 1.  	|SS to do this in this line adsasd hkahd hkadh  kahd a kjhad           	| www.w3schools.com	            	|I used this to         	|
+| 1.  	|SS to do this in this line adsasd hkahd<br> hkadhkahd a kjhad           	| www.w3schools.com	            	|I used this to         	|
 | 2.  	|Code for this and that           	|www.thisandthat.com             	|         	|
 | 3.  	|Code for this and that           	|	www.thisandthat.com	             	|         	|
 | 4.  	|Code for this and that           	|             	|         	|
