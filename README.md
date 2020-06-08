@@ -1,6 +1,6 @@
 #  <span style="color:#da4699"> Milestone Project 1 </span>
 
-[![ML Bowen Logo](images/MLBowenandstickmen7.jpg "ML Bowen Website Link")](www.mlbowen.com)
+[![ML Bowen Logo](assets/images/MLBowenandstickmen7.jpg "ML Bowen Website Link")](www.mlbowen.com)
 
 ***
 
@@ -11,35 +11,37 @@
 
 This website has been build for a Bowen Therapist as part of a marketing campaign to :<br>
 
-* Promote the treatment service
-* Provide information about Bowen Therapy
-* Build confidence in the therapist
-* Provide booking information for prospective patients
+* Promote and sell the treatment service being offered.
+* Provide information about Bowen Therapy.
+* Provide information about the Treatment as well as process and pricing.
+* Provide information about and build confidence in the therapist.
+* Provide booking information for prospective patients.
+* Provide information about events the therapist is attending of recommends attending and offers.
 
 
 ## 1. UX
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+* Mobile
+* Tablet
+* Widescreen
+* Accessibility
 
 ## 2. Features
 
-
 > ### 2.1 Existing Features
+
 
 > ### 2.2 Features Left to Implement
 
 
 ## 3. Technologies Used
 
-Here is some code `<p></p>`
-
-This is a code block 
-```<body>
-    <div class="title">Milestone Project 1</div>
-    <p>Hello Kieron to your new world !!</p>
-</body>
-```
-
-
+| No. 	| Code Area 	| Code Source 	| Comment 	|
+|-----	|-----------	|-------------	|---------	|
+| 1.  	|Bootstrap 4          	| www.bootstrap.com	            	|I used this to         	|
+| 2.  	|Fontawesome          	|www.fontaweseome.com         	|         	|
+| 3.  	|Code for this and that           	|	www.thisandthat.com	             	|         	|
+| 4.  	|Code for this and that           	|             	|         	|
 
 
 
@@ -61,17 +63,8 @@ This is a code block
 | 3.  	|Code for this and that           	|	www.thisandthat.com	             	|         	|
 | 4.  	|Code for this and that           	|             	|         	|
 
-> ### 6.2 Generic Code References
 
-| No. 	| Code Area 	| Code Source 	| Comment 	|
-|-----	|-----------	|-------------	|---------	|
-| 1.  	|Bootstrap 4          	| www.bootstrap.com	            	|I used this to         	|
-| 2.  	|Fontawesome          	|www.fontaweseome.com         	|         	|
-| 3.  	|Code for this and that           	|	www.thisandthat.com	             	|         	|
-| 4.  	|Code for this and that           	|             	|         	|
-
-
-> ### 6.3 Media
+> ### 6.2 Media
 
 | No. 	| Code Area 	| Code Source 	| Comment 	|
 |-----	|-----------	|-------------	|---------	|
