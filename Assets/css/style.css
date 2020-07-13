@@ -1,8 +1,8 @@
             body {
                 background-color: rgb(255, 255, 255);
+                max-width: 80%;
+                margin: auto;
                 text-decoration: none;
-                margin-left: 5px;
-                margin-right: 5px;
             }
             /* Main Logo */
             
@@ -30,15 +30,15 @@
             }
             
             .icons a {
-                color: #da4699;
+                color: #d47ca1;
                 border-radius: 50%;
             }
             
             .telno a {
-                color: #da4699;
+                color: #d47ca1;
                 font: helvetica;
                 font-size: 18px;
-                font-weight: 400;
+                font-weight: 500;
             }
             /* Navigation section */
             
@@ -47,16 +47,20 @@
                 padding-right: 0px;
                 padding-top: 0px;
                 padding-bottom: 0px;
-                margin-left: 15px;
-                margin-right: 15px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            
+            .navbar-nav.a.nav-link {
+                padding-right: 15px;
             }
             
             .navbar-custom {
-                background-color: #ddabc7;
+                background-color: #d47ca1;
             }
             
             .navbar-custom a {
-                color: #525355;
+                color: #38383a;
             }
             
             a.active:hover {
@@ -66,12 +70,32 @@
             }
             
             .breadcrumb-item a {
-                color: #da4699;
+                color: #d468a6;
                 font-size: 12px;
             }
             
             .breadcrumb-item::before {
                 font-size: 12px;
+            }
+            /* Main pages */
+            
+            .mainimage {
+                margin-left: 10px;
+                margin-right: 10px;
+                background-image: url('/assets/images/Picture1.jpg');
+                height: 100%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            
+            .content {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
             }
             /* Footer section */
             
@@ -104,16 +128,16 @@
             }
             
             .affiliations img.btpa {
-                width: 80px;
-                height: 80px;
+                width: 70px;
+                height: 70px;
                 margin-right: 7px;
                 margin-left: 7px;
                 align-items: center;
             }
             
             .affiliations img {
-                width: 160px;
-                height: 80px;
+                width: 120px;
+                height: 70px;
                 margin-right: 7px;
                 margin-left: 7px;
             }
