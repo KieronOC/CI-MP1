@@ -38,6 +38,7 @@
                 color: #da4699;
                 font: helvetica;
                 font-size: 18px;
+                font-weight: 400;
             }
             /* Navigation section */
             
@@ -86,7 +87,7 @@
             
             .copyright a {
                 color: #525355;
-                font-size: 1.5em;
+                font-size: 1.25em;
                 ;
             }
             
