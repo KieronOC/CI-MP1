@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <!-- Main body of website that will be seen -->
@@ -70,21 +71,45 @@
     <!-- Main page content -->
     <section>
 
-        <div class="container-fluid">
+        <div class="container-fluid contactinfo">
             <h5>Please contact me to have a chat or arrange an appointment</h5>
             <div class="row">
-                <form class="col">
+                <form id="contactform" class="col" action="" method="POST">
                     <fieldset class="fieldset">
                         <legend>Please fill in the following and press Submit :</legend>
                         <div class="form-group">
-                            <label for="lname" class="lnamelabel">Last Name :</label>
-                            <input type="text" class="form-control lname" name="lname" id="lname" placeholder="Last name" maxlength="10" size="50" autocomplete="off" required>
+                            <label for="lname" class="namelabel">Last Name :</label>
+                            <input type="text" class="form-control namef" name="lname" id="lname" placeholder="Required" maxlength="50" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname" class="namelabel">First Name :</label>
+                            <input type="text" class="form-control namef" name="fname" id="fname" placeholder="Required" maxlength="50" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="email">Email :</label>
+                            <input type="email" class="form-control emailf" name="email" id="email" placeholder="Required" maxlength="50" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobno" class="mobno">Mobile Number :</label>
+                            <input type="tel" class="form-control mobnof" name="mobno" id="mobno" placeholder="Required" maxlength="50" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telno" class="telno">Tel Number :</label>
+                            <input type="tel" class="form-control telnof" name="telno" id="telno" placeholder="Tel Number" maxlength="50" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment" class="comment">Comment :</label>
+                            <textarea type="text" class="form-control commentf" rows="6" name="comment" id="comment" placeholder="This is optional at this point, but it would be helpful if you could jot down here a little about the condition you are trying to treat. This will be treated in strict confidence."
+                                maxlength="250" autocomplete="off"></textarea>
                         </div>
 
+                        <div>
+                            <input type="radio" id="robot" required>
+                            <label class="robot" for="robot">I am not a robot</label>
 
-
-
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary contactformsubmit">
+                                Submit</button>
+                        </div>
                     </fieldset>
                 </form>
 
@@ -129,6 +154,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

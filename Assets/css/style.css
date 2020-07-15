@@ -124,27 +124,77 @@
                 margin: 5px;
             }
             
+            .contactinfo {
+                margin-top: 15px;
+            }
+            
+            .form-group {
+                margin-bottom: 3px;
+            }
+            
             legend {
                 font-size: 20px;
             }
             
-            label.lnamelabel {
+            label.namelabel {
                 font-size: 14px;
                 margin-bottom: 2px;
             }
             
-            .form-control.lname {
+            label.email {
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+            
+            label.mobno {
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+            
+            label.telno {
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+            
+            label.comment {
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+            
+            .form-control.namef {
+                width: 65%;
+            }
+            
+            .form-control.emailf {
                 width: 75%;
             }
             
-            .btn-primary {
+            .form-control.mobnof {
+                width: 30%;
+            }
+            
+            .form-control.telnof {
+                width: 30%;
+            }
+            
+            .form-control.commentf {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+            .contactformsubmit {
                 background-color: #d468a6;
                 border-color: #d468a6;
             }
             
-            .btn-primary:hover {
+            .contactformsubmit:hover {
                 background-color: #75d468;
                 border-color: #d468a6;
+            }
+            
+            .robot {
+                font-size: 14px;
+                margin-right: 20px;
             }
             /* Footer section */
             
