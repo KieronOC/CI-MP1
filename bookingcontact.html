@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
+
 </head>
 
 <!-- Main body of website that will be seen -->
@@ -72,9 +73,10 @@
     <section>
 
         <div class="container-fluid contactinfo">
-            <h5>Please contact me to have a chat or arrange an appointment</h5>
+
             <div class="row">
                 <form id="contactform" class="col" action="" method="POST">
+                    <h6>Please contact me to have a chat or arrange an appointment</h6>
                     <fieldset class="fieldset">
                         <legend>Please fill in the following and press Submit :</legend>
                         <div class="form-group">
@@ -97,12 +99,21 @@
                             <label for="telno" class="telno">Tel Number :</label>
                             <input type="tel" class="form-control telnof" name="telno" id="telno" placeholder="Tel Number" maxlength="50" autocomplete="off" required>
                         </div>
+
                         <div class="form-group">
                             <label for="comment" class="comment">Comment :</label>
                             <textarea type="text" class="form-control commentf" rows="6" name="comment" id="comment" placeholder="This is optional at this point, but it would be helpful if you could jot down here a little about the condition you are trying to treat. This will be treated in strict confidence."
                                 maxlength="250" autocomplete="off"></textarea>
                         </div>
-
+                        <div class="research form-group ">
+                            <p>Please could you let me know how you found or heard about me</p>
+                            <input type="radio" id="robot" required>
+                            <label class="robot" for="robot">This website</label>
+                            <input type="radio" id="robot" required>
+                            <label class="robot" for="robot">Personal recommendation</label>
+                            <input type="radio" id="robot" required>
+                            <label class="robot" for="robot">Social media source</label>
+                        </div>
                         <div>
                             <input type="radio" id="robot" required>
                             <label class="robot" for="robot">I am not a robot</label>
@@ -114,7 +125,29 @@
                 </form>
 
                 <div class="col-md-6">
-                    <p>testimonials</p>
+                    <div class="row">
+                        <div class="col">
+                            <h6>Practice Location</h6>
+                            <p>I currently run my practice from the Olive Tree Natural Therapy Rooms in Haslemere. Their contact details are below. You can make an appointment by calling or emailing the
+                                <a href="http://olivetreehealth.co.uk/" title="Olive Tree"><b style="color:#d47ca1;">Olive Tree</b>
+                        </a> or by contacting me directly. My phone and email details are at the top of every page of this website and repeated below:</p>
+                            <p><a href="http://olivetreehealth.co.uk/" title="Olive Tree" style="font-size:0.9em;"><b style="color: black;">The Olive Tree Natural Therapy Rooms</b></a><br>69A Wey Hill<br> Haslemere<br> Surrey<br> GU27 1HN<br></p>
+
+                            <p>Enquiries & Bookings: 01428 654140</p>
+
+                            <p><a href="mailto:enquiries@olivetreehealth.co.uk" title="Olive Tree email" style="font-size:0.9em;"><b><u style="color:#d47ca1;">enquiries@olivetreehealth.co.uk</u></b></a></p>
+
+                            <h3 class="marylou" style="font-size:1.4em;">Mary Lou Contact Details</h3>
+                            <p>Tel : 07501 017195</p>
+                            <p><a href="mailto:marylou@mlbowen.com" title="Mary Lou email" style="font-size:0.9em;"><b><u style="color: #d47ca1;">marylou@mlbowen.com</u></b></a></p>
+                        </div>
+                    </div>
+                    <!-- Code from Google Maps share. Learnt how to do this from this youtube video https://www.youtube.com/watch?v=KIC0OK9nKXY  -->
+                    <div class="row map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1501.1885943476796!2d-0.7277639414574518!3d51.087737553914955!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875cb5bf9ac6f3b%3A0x755ca0375158b723!2sThe%20Olive%20Tree%20-%20Haslemere!5e0!3m2!1sen!2sus!4v1594828355548!5m2!1sen!2sus"
+                            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+
                 </div>
             </div>
         </div>

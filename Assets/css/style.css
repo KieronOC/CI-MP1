@@ -136,27 +136,11 @@
                 font-size: 20px;
             }
             
-            label.namelabel {
-                font-size: 14px;
-                margin-bottom: 2px;
-            }
-            
-            label.email {
-                font-size: 14px;
-                margin-bottom: 2px;
-            }
-            
-            label.mobno {
-                font-size: 14px;
-                margin-bottom: 2px;
-            }
-            
-            label.telno {
-                font-size: 14px;
-                margin-bottom: 2px;
-            }
-            
-            label.comment {
+            .namelabel,
+            .email,
+            .mobno,
+            .telno,
+            .comment {
                 font-size: 14px;
                 margin-bottom: 2px;
             }
@@ -195,6 +179,28 @@
             .robot {
                 font-size: 14px;
                 margin-right: 20px;
+            }
+            /* Research */
+            
+            .research p {
+                margin-bottom: 2px;
+            }
+            
+            .research.form-group {
+                margin-bottom: 20px;
+            }
+            /* Map */
+            
+            div.map {
+                width: 100%;
+                height: 600px;
+                border-style: solid;
+                border-width: 5px;
+                border-color: #d468a6;
+                align-content: center;
+                margin-bottom: 15px;
+                margin-left: auto;
+                margin-right: auto;
             }
             /* Footer section */
             
