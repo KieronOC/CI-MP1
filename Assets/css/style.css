@@ -61,18 +61,19 @@
             
             .navbar-custom a {
                 color: #38383a;
+                font-weight: 400;
             }
             
             a:hover {
                 background-color: rgb(211, 216, 216);
                 border-radius: 3px;
-                color: rgb(163, 27, 163);
+                color: #d47ca1;
             }
             
             a.active {
                 background-color: rgb(211, 216, 216);
                 border-radius: 3px;
-                color: rgb(163, 27, 163);
+                color: #d47ca1;
             }
             
             .form-inline {
