@@ -1,6 +1,6 @@
             body {
                 background-color: rgb(255, 255, 255);
-                max-width: 80%;
+                max-width: 95%;
                 margin: auto;
                 text-decoration: none;
             }
@@ -63,10 +63,26 @@
                 color: #38383a;
             }
             
-            a.active:hover {
+            a:hover {
                 background-color: rgb(211, 216, 216);
                 border-radius: 3px;
                 color: rgb(163, 27, 163);
+            }
+            
+            a.active {
+                background-color: rgb(211, 216, 216);
+                border-radius: 3px;
+                color: rgb(163, 27, 163);
+            }
+            
+            .form-inline {
+                margin-right: 5px;
+            }
+            
+            .form-control {
+                font-size: .75rem;
+                height: 35px;
+                background-color: #d4b2c0;
             }
             
             .breadcrumb-item a {
