@@ -114,6 +114,38 @@
                 transform: translate(-50%, -50%);
                 color: black;
             }
+            /* Contact Form */
+            
+            .fieldset {
+                border: 1px;
+                padding: 10px;
+                border-style: solid;
+                border-color: #d468a6;
+                margin: 5px;
+            }
+            
+            legend {
+                font-size: 20px;
+            }
+            
+            label.lnamelabel {
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+            
+            .form-control.lname {
+                width: 75%;
+            }
+            
+            .btn-primary {
+                background-color: #d468a6;
+                border-color: #d468a6;
+            }
+            
+            .btn-primary:hover {
+                background-color: #75d468;
+                border-color: #d468a6;
+            }
             /* Footer section */
             
             .footer {
