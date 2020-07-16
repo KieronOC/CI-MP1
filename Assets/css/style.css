@@ -43,12 +43,9 @@
             /* Navigation section */
             
             nav.navbar {
-                padding-left: 0px;
-                padding-right: 0px;
-                padding-top: 0px;
-                padding-bottom: 0px;
-                margin-left: 10px;
-                margin-right: 10px;
+                padding: 0;
+                margin-left: 0px;
+                margin-right: 0px;
             }
             
             .navbar-nav.a.nav-link {
@@ -97,13 +94,15 @@
             /* Main pages */
             
             .mainimage {
-                margin-left: 10px;
-                margin-right: 10px;
+                margin-left: 0px;
+                margin-right: 0px;
                 background-image: url('/assets/images/Picture1.jpg');
-                height: 100%;
+                height: 600px;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
+                flex-direction: column;
+                align-content: space-between;
             }
             
             .content {
@@ -113,6 +112,75 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 color: black;
+            }
+            /* Home page */
+            
+            .row0 {
+                height: 50px;
+            }
+            
+            .row1 {
+                margin-bottom: 10px;
+                padding-top: 20px;
+            }
+            
+            .row3 {
+                font-size: 1rem;
+                height: auto;
+            }
+            
+            .col1 {
+                width: auto;
+                height: 300px;
+                flex-direction: column;
+                align-content: space-between;
+                font-size: 2.5rem;
+                font-weight: 500;
+                color: #d468a6;
+            }
+            
+            .row3>.col2 {
+                height: 400px;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            
+            .row1,
+            .row4,
+            .row5,
+            .row6,
+            .row7,
+            .row8,
+            .row9,
+            .row10,
+            .row11 {
+                font-size: 1.0rem;
+                color: #613f52;
+                font-weight: 500;
+            }
+            
+            .row9 {
+                margin-top: 10px;
+                padding-bottom: 20px;
+            }
+            
+            .rowlast {
+                margin-top: 45px;
+                margin-bottom: 30px;
+            }
+            
+            .linkbutton {
+                margin-right: 15px;
+                color: #38383a;
+                border-color: #d4b2c0;
+                background-color: #d47ca1;
+            }
+            
+            .linkbutton:hover {
+                background-color: rgb(211, 216, 216);
+                border-color: #d4b2c0;
+                border-radius: 3px;
+                color: #d47ca1;
             }
             /* Contact Form */
             
@@ -175,19 +243,28 @@
                 background-color: #75d468;
                 border-color: #d468a6;
             }
+            /* Research */
             
-            .robot {
+            .robot,
+            .research {
                 font-size: 14px;
                 margin-right: 20px;
             }
-            /* Research */
             
             .research p {
                 margin-bottom: 2px;
             }
             
-            .research.form-group {
+            .researchb.form-group {
                 margin-bottom: 20px;
+                font-size: 14px;
+            }
+            
+            @media screen and (max-width:600px) {
+                div.researchb {
+                    background-color: aqua;
+                    float: left;
+                }
             }
             /* Map */
             
@@ -204,7 +281,7 @@
             }
             /* Footer section */
             
-            .footer {
+            footer.container-fluid {
                 background-color: #38363754;
             }
             
@@ -217,7 +294,6 @@
             .copyright a {
                 color: #525355;
                 font-size: 1.25em;
-                ;
             }
             
             .ydt {
@@ -245,9 +321,4 @@
                 height: 70px;
                 margin-right: 7px;
                 margin-left: 7px;
-            }
-            
-            .myfooter {
-                max-width: 100%;
-                height: 100px;
             }
