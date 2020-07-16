@@ -103,6 +103,8 @@
                 background-size: cover;
                 flex-direction: column;
                 align-content: space-between;
+                padding-top: 25px;
+                padding-bottom: 10px;
             }
             
             .content {
@@ -127,6 +129,8 @@
             .row3 {
                 font-size: 1rem;
                 height: auto;
+                padding-top: 10px;
+                margin-top: 0px;
             }
             
             .col1 {
@@ -134,7 +138,7 @@
                 height: 300px;
                 flex-direction: column;
                 align-content: space-between;
-                font-size: 2.5rem;
+                font-size: 2.3rem;
                 font-weight: 500;
                 color: #d468a6;
             }
@@ -171,6 +175,7 @@
             
             .linkbutton {
                 margin-right: 15px;
+                margin-bottom: 10px;
                 color: #38383a;
                 border-color: #d4b2c0;
                 background-color: #d47ca1;
