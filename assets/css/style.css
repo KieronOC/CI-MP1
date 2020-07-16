@@ -96,7 +96,7 @@
             .mainimage {
                 margin-left: 0px;
                 margin-right: 0px;
-                background-image: url('/assets/images/Picture1.jpg');
+                background-image: url('../images/Picture1.jpg');
                 height: 600px;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
