@@ -1,6 +1,6 @@
 #  <span style="color:#da4699"> Milestone Project 1 </span>
 
-![ML Bowen Logo](ASSETS/images/MLBowenandstickmen7.jpg)
+![ML Bowen Logo](assets/logos/MLBowenandstickmen7.jpg)
 
 ***
 
