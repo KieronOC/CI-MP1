@@ -202,9 +202,10 @@
             color: #d47ca1;
         }
         
-        .amr1c2 .row {
+        .amr1c2 .sh {
             font-size: 14px;
             margin-bottom: 20px;
+            background-color: rgba(221, 214, 214, 0.6);
         }
         
         .amr1c1 .cv {
