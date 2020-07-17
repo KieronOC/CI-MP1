@@ -187,6 +187,31 @@
                 border-radius: 3px;
                 color: #d47ca1;
             }
+            /* About MAry Lou */
+            
+            .whole {
+                height: auto;
+                background-color: #75d468;
+            }
+            
+            .quals {
+                background-color: brown;
+            }
+            
+            .h2.marylou {
+                vertical-align: top;
+            }
+            
+            .title {
+                font-size: 25px;
+                color: #38383a;
+            }
+            
+            .cv {
+                font-size: 16px;
+                color: #38383a;
+                background-color: aqua;
+            }
             /* Contact Form */
             
             .fieldset {
