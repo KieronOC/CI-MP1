@@ -73,57 +73,135 @@
 
     <!-- Main page content -->
 
-    <div class="container-fluid" style="background-color: blueviolet;">I am a container
-        <div class="row justify-content-around">
-            <div class="col-sm-2 btcol1">
-                <p>I am a col inside a row</p>
-                <p>I am a col inside a row</p>
-            </div>
-            <div class=" col-sm-2 btcol2 d-flex flex-column justify-content-center-sm text-center">
-                <p>I am a col inside a row</p>
-            </div>
-            <div class="col-sm-2 btcol3">
-                <p>I am a col inside a row</p>
+
+    <!-- The code for creating the following Accordian text displays came from https://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
+
+    <div Class="container-fluid">
+        <div class="row tbt-r1">
+            <div class="col c1">
+                <h4>Summary</h4>
+
+                <p>The Bowen Fascial Release Technique is a soft tissue, gentle remedial therapy. Rolling type moves are applied to precise points on the body over muscle, ligament, tendon and fascia, prompting the brain to reset, repair and balance the
+                    body. The treatment is gentle, subtle and deeply relaxing.</p>
+
+                <div class="panel-group" id="accordian">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h6 class="panel-title"><a data-toggle="collapse" data-parent="#accordian" href="#p1">
+                            How does the Bowen Technique work?</a></h6>
+                        </div>
+
+                        <div id="p1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Optimal alignment and function of our bodies depends on balanced muscular tension. Injuries, poor posture, emotional stress, illnesses and countless other influences will lead to incorrect tension in our soft tissues leaving
+                                    our bodies mal aligned, leading to different aches and pains and internal, systemic problems.</p>
+
+                                <p>A Bowen move will stimulate particular receptors, connecting the brain directly to the area of the problem, allowing the body to reset “incorrect tension” in the soft tissue and thus regain optimum function. At the same
+                                    time it rebalances the Autonomic Nervous System promoting physical and emotional healing. Bowen does not force the body to change, rather it acts as a catalyst to the body recognising its own imbalances and making the
+                                    changes itself, thereby inducing effective and long lasting results. The gentle approach of Bowen ensures that the body goes into a deep relaxation mode, allowing itself to repair, rather than an on-guard, protective
+                                    mode
+                                    <p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading ">
+                            <h6><a data-toggle="collapse" data-parent="#accordian" href="#p2">What conditions may it help with?</a></h6>
+                        </div>
+                        <div id="p2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Common presenting problems include back and neck pain, knee problems, sports injuries, RSI, frozen shoulder, tennis elbow and respiratory conditions. Conditions such as chronic fatigue, hayfever, headache, kidney problems,
+                                    and problems requiring lymphatic drainage have responded favourably to The Bowen Technique.</p>
+
+                                <p>Some people use the Bowen Technique as a means of stress management and health maintenance, seeing their therapist regularly 2-4 times a year.</p>
+
+                                <p>Bowen can be incredibly helpful to ladies during pregnancy as the body is undergoing constant change and adaptations which can sometimes lead to joint and muscle pains including Symphysis Pubis Dysfunction, Low Back Pain,
+                                    Sciatic Pain and high blood pressure. Bowen can help to keep the pelvis aligned and will help to address any muscular imbalance, as well as promoting deep relaxation to aid both physical and emotional healing by balancing
+                                    the Autonomic Nervous System.
+                                </p>
+
+                                <p>Common childhood ailments including bedwetting, colic, glue ear, constipation, sleep disturbances, asthma and anxiety, respond very well and often quickly to Bowen.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading ">
+                            <h6><a data-toggle="collapse" data-parent="#accordian" href="#p3">Who can benefit from a Bowen treatment?</a></h6>
+                        </div>
+                        <div id="p3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>As a therapy, Bowen is truly light-touch. The pressure used in Bowen is quite subtle and can be extremely light and still get the job done. It is not dependent on hard pressure and there is no awkward bending, twisting
+                                    or re-positioning of the client during the treatment. Because of this, Bowen can be considered for clients for whom other forms of therapy might be too aggressive, forceful or invasive. The tiniest of babies through
+                                    to the frailest of adults have been treated with Bowen. And pregnant ladies too.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading ">
+                            <h6><a data-toggle="collapse" data-parent="#accordian" href="#p4">Who invented the Bowen Technique?</a></h6>
+                        </div>
+                        <div id="p4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>The technique was developed in Australia by <a href="http://www.bowtech.com/WebsiteProj/Pages/About/History.aspx "><u>Tom Bowen</u></a> in the 1950s. Following his interest and studies in the human muscular structure, he
+                                    intuitively began working with this gentle technique discovering that certain moves on the body helped recovery from many conditions. His work in his popular clinic in Geelong, was verified by the 1975 Victorian Government
+                                    Inquiry into alternative health care professions.</p>
+                                <p>It was only in 1986 that the technique was brought to other countries</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading ">
+                            <h6><a data-toggle="collapse" data-parent="#accordian" href="#p5">Who are Bowen Therapists?</a></h6>
+                        </div>
+                        <div id="p5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Today, a notable number of ECBS students are physios, chiropractors, osteopaths, nurses and even some doctors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </div>
-    <div class="container-fluid " style="background-color: rgb(226, 43, 89); ">I am a fluid container</div>
 
+        <!-- Footer content repeated on every page. Links to social media, copyright etc -->
+        <footer class="container-fluid footer ">
+            <div class="row ">
+                <div class="col-md copyright ">
+                    <a href="index.html ">
+                        <p>Back to top</p>
+                    </a>
+                    <p>&copy; 2020 ML Bowen & Mary Lou O'Connell</p>
 
+                </div>
+                <div class="col-md affiliations justify-content-between ">
+                    <a href="https://www.bowentherapy.org.uk// " target="_blank "><img src="assets/logos/BTPA.jpg " class="img-thumbnail " alt="BTPA Logo ">
+                    </a>
+                    <a href="https://www.thebowentechnique.com// " target="_blank "><img src="assets/logos/CBS-Retina-Logo@0.5x.png " class="img-thumbnail " alt="College of Bowen Studies ">
+                    </a>
+                    <a href="https://www.fht.org.uk/ " target="_blank "><img src="assets/logos/FHT-logo.jpg " class="img-thumbnail " alt="FHT Logo ">
+                    </a>
+                    <a href="https://www.cnhc.org.uk/ " target="_blank "><img src="assets/logos/CNHC Logo.jpg " class="img-thumbnail " alt="CNHC Logo ">
+                    </a>
+                </div>
 
-    <!-- Footer content repeated on every page. Links to social media, copyright etc -->
-    <footer class="container-fluid footer">
-        <div class="row">
-            <div class="col-md copyright">
-                <a href="index.html">
-                    <p>Back to top</p>
-                </a>
-                <p>&copy; 2020 ML Bowen & Mary Lou O'Connell</p>
-
+                <div class="col-md ydt ">
+                    <p>Website by You Did That</p>
+                </div>
             </div>
-            <div class="col-md affiliations justify-content-between">
-                <a href="https://www.bowentherapy.org.uk//" target="_blank"><img src="assets/logos/BTPA.jpg" class="img-thumbnail" alt="BTPA Logo">
-                </a>
-                <a href="https://www.thebowentechnique.com//" target="_blank"><img src="assets/logos/CBS-Retina-Logo@0.5x.png" class="img-thumbnail" alt="College of Bowen Studies">
-                </a>
-                <a href="https://www.fht.org.uk/" target="_blank"><img src="assets/logos/FHT-logo.jpg" class="img-thumbnail" alt="FHT Logo">
-                </a>
-                <a href="https://www.cnhc.org.uk/" target="_blank"><img src="assets/logos/CNHC Logo.jpg" class="img-thumbnail" alt="CNHC Logo">
-                </a>
-            </div>
-
-            <div class="col-md ydt">
-                <p>Website by You Did That</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
 
-    <!-- Scripts for bootstrap CDN -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+        <!-- Scripts for bootstrap CDN -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
 </body>
 
 </html>
