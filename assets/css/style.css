@@ -296,7 +296,6 @@
         
         @media screen and (max-width:600px) {
             div.researchb {
-                background-color: aqua;
                 float: left;
             }
         }
