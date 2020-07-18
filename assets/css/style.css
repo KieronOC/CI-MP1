@@ -4,6 +4,7 @@
             margin: auto;
             text-decoration: none;
             font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
         }
         /* Main Logo */
         
@@ -127,7 +128,7 @@
             flex-direction: column;
             align-content: space-between;
             font-size: 2.3rem;
-            font-weight: 500;
+            font-weight: 700;
             color: #d468a6;
         }
         
@@ -177,6 +178,10 @@
             margin-top: 10px;
             background-color: #d4b2c0;
         }
+        
+        .panel {
+            margin-bottom: 15px;
+        }
         /* ABOUT MARY LOU PAGE */
         
         .amr1 {
@@ -200,8 +205,9 @@
         }
         
         .amr1c2 .r1 .c1 {
-            color: #d47ca1;
+            color: #38383a;
             font-size: x-large;
+            font-weight: 600;
         }
         
         .link {
@@ -211,7 +217,7 @@
         .amr1c2 .sh {
             font-size: 14px;
             margin-bottom: 20px;
-            background-color: rgba(221, 214, 214, 0.6);
+            background-color: rgba(221, 214, 214, .75);
         }
         
         .amr1c1 .cv {
@@ -328,14 +334,22 @@
             background-color: #fff;
         }
         
+        .btotop a {
+            color: #d47ca1;
+        }
+        
         .copyright {
             font-size: 0.7rem;
-            color: #525355
+            color: #525355;
         }
         
         .copyright a {
             color: #525355;
             font-size: 1.25em;
+        }
+        
+        .copyright p {
+            margin-bottom: 5px;
         }
         
         .ydt {
@@ -345,6 +359,14 @@
             flex-direction: column;
             font-size: 0.7em;
             color: #525355;
+        }
+        
+        .ydt p {
+            margin-bottom: 5px;
+        }
+        
+        .logos {
+            margin-bottom: 20px;
         }
         
         .affiliations {
