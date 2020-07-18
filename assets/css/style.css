@@ -168,6 +168,7 @@
         
         .tbt-r1 h6 a {
             color: #d47ca1;
+            font-weight: 600;
         }
         
         .tbt-r1 p a {
@@ -180,7 +181,7 @@
         }
         
         .panel {
-            margin-bottom: 15px;
+            margin-bottom: 25px;
         }
         /* ABOUT MARY LOU PAGE */
         
