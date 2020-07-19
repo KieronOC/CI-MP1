@@ -108,6 +108,8 @@ The site functionality appears to be OK on all these platforms.
 
 I have pushed all the code to GITHUB and have published the main branch (there is only a main branch) at https://kieronoc.github.io/CI-MP1/.
 
+For the time being the social media links are direct at the BBC News website.
+
 This link opens the website from all the devices I have tested it on.
 
 
