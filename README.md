@@ -18,9 +18,9 @@ This website has been build for a Bowen Therapist as part of a marketing campaig
 * Provide booking information for prospective patients.
 * Provide information about events the therapist is attending of recommends attending and offers.
 
-I produced a complete Planes Analysis before starting the project : background_work\Planes Analysis-ML Bowen Website.pdf
+I produced a Planes Analysis before starting the project : https://github.com/KieronOC/CI-MP1/blob/master/background_work/Planes%20Analysis-ML%20Bowen%20Website.pdf
 
-I also constructed a basic wireframe document prior to starting to write the code : background_work\ML Bowen Wireframe 200608.pdf
+I also constructed a basic wireframe document prior to starting to write the code : https://github.com/KieronOC/CI-MP1/blob/master/background_work/ML%20Bowen%20Wireframe%20200608.pdf
 
 ## 1. UX
 
