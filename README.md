@@ -92,7 +92,7 @@ I have loaded the site via the GitHub URL (https://kieronoc.github.io/CI-MP1/) o
 * Google Chrome
 * Firefox
 
-The website appears to work on all these platforms without any issues.
+The website appears to work on all these platforms without any issues, including re-sizing.
 
 I have also reviewed the website on:
 
@@ -101,8 +101,16 @@ I have also reviewed the website on:
 * Widescreen desktop
 * Laptop
 
-The site functionality appears to be OK on all these platforms.
+The site functionality appears to be OK on all these platforms with the logo image changing on the phone screen sizes.
 
+The form fields are not connected as yet as I do not have that knowledge yet, but trying to submitt without required fields being entered produces the necessary user message.
+
+
+### <u>Performance Test</u>
+
+I ran a performance test at gtmetrix.com with the following result : https://gtmetrix.com/reports/kieronoc.github.io/PG2MMO0C 
+
+Suggestions in this report will need more knowledge to implement but it seems there are no glaring problems at this stage.
 
 ## 5. Deployment
 
